@@ -11,7 +11,7 @@ const Home = () => (
             <span></span>
             <span></span>
           </a>
-          <h1>aiyou</h1>
+          <h1>Profilo</h1>
         </div>
       </div>
 
@@ -154,7 +154,7 @@ const Home = () => (
       </div>
     </div>
 
-    <div class="account-panel">
+    <div>
       <div class="account-panel__resizer"></div>
       <div class="account-panel__inner">
         <div class="account-panel__content">
@@ -167,7 +167,7 @@ const Home = () => (
               href="https://www.joshadamous.com/"
               class="user-avatar"
               style={{
-                backgroundImage: `url(https://www.joshadamous.com/images/profile.jpeg);`,
+                backgroundImage: `url(https://avatars3.githubusercontent.com/u/56249189?s=460&u=fdee0804ba790d7a656e2b681d72c4e09a8a6602&v=4);`,
               }}
               target="_blank"
             ></a>
@@ -175,21 +175,24 @@ const Home = () => (
 
           <div class="account-content">
             <h2>
-              Hello,{" "}
+              Hello,
               <span>
-                Josh<div class="notification-badge">42</div>
+                I'm Rex !<div class="notification-badge">Dev</div>
               </span>
             </h2>
+            <h3 style={{ color: "white", opacity: 0.7 }}>Things I've made</h3>
             <div class="account-card-list">
               <a
                 href="javascript:void(0)"
                 class="card card__image card__tall"
                 style={{
-                  backgroundImage: `url(https://images.unsplash.com/photo-1558237316-d4762d4b8ce7?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80)`,
+                  backgroundImage: `url(https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-watch-og-20190910_GEO_DE?wid=1200&hei=630&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1567815951579)`,
                 }}
               >
                 <div class="card__button">
-                  Get <span style={{ marginLeft: 2 }}>Glasses</span>
+                  <span style={{ marginLeft: 2 }}>
+                    Apple Watch Website Remake
+                  </span>
                 </div>
               </a>
               <a
@@ -219,11 +222,11 @@ const Home = () => (
             <div class="now-playing">
               <h3>Now Playing</h3>
               <div class="songs-list">
-                <div class="card card__player card__lt-pink-bg">
+                <div class="card card__player ">
                   <div
                     class="album-artwork"
                     style={{
-                      backgroundImage: `url(https://images.genius.com/74622f434a6e852420ea522d6aae36f1.1000x1000x1.jpg));`,
+                      backgroundImage: `url(https://images.genius.com/74622f434a6e852420ea522d6aae36f1.1000x1000x1.jpg)`,
                     }}
                   ></div>
                   <div class="song-info">
@@ -235,7 +238,8 @@ const Home = () => (
                     <span></span>
                   </a>
                 </div>
-                <a
+
+                {/* <a
                   href="javascript:void(0)"
                   class="card card__player card__next-song"
                 >
@@ -243,7 +247,7 @@ const Home = () => (
                     <div class="song-title">Sicko Mode</div>
                     <div class="song-artist">Travis Scott</div>
                   </div>
-                </a>
+                </a> */}
               </div>
             </div>
             <div class="account-pagination">
